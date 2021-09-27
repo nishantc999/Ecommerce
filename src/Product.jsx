@@ -38,7 +38,7 @@ const Product = (props) => {
         {productdata.map((val,index)=>{
            return  <div className="col" key={val.id}>
            <div class="card" style={{width: "18rem"}}>
-             <Link to={{pathname:"/detail/"+val.id}}><img class="card-img-top" src={val.img} alt="Card image cap"/></Link>
+             <Link to={{pathname:"/Ecommerce/detail/"+val.id}}><img class="card-img-top" src={val.img} alt="Card image cap"/></Link>
              <div class="card-body">
                <h5 class="card-title">{val.name}</h5>
                <p class="card-text">Price: {val.price}</p>

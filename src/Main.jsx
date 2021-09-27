@@ -14,10 +14,10 @@ const Main = () => {
           <StateProvider reducer={reducer} initialState={initialState}>
               <Navbars/>
           <Switch>
-         <Route  exact path="/"> <Product/></Route>
-          <Route exact path="/cart"><Cart/></Route>
-          <Route exact path="/detail/:id" component={Detail}/>
-         <Route exact path="/signin" component={SignIn}/>
+         <Route  exact path="/Ecommerce/"> <Product/></Route>
+          <Route exact path="/Ecommerce/cart"><Cart/></Route>
+          <Route exact path="/Ecommerce/detail/:id" component={Detail}/>
+         <Route exact path="/Ecommerce/signin" component={SignIn}/>
           </Switch>
               </StateProvider> 
         </div>

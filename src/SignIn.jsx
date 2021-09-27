@@ -19,11 +19,11 @@ const SignIn=()=> {
     event.preventDefault();
     localStorage.setItem("tokens","login");
     settokens(true)
-    history.push("/")
+    history.push("/Ecommerce/")
   }
 
   if(token){
-    history.push("/")
+    history.push("/Ecommerce/")
 }
   return (
     <div className="Login">
