@@ -256,3 +256,10 @@ main{
 .sidebar-toggle:checked ~.sidebar-div{
 display: block;
 }
+.link{
+  color:white;
+  text-decoration: none;
+}
+.link:hover{
+  color:#000
+}
